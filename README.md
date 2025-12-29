@@ -110,3 +110,4 @@ nest g module tasks ( to create module and update in app module)
 nest g controller tasks --no-spec ( generate controller file and this flag is for not generate test)
 nest g service tasks --no-spec
 npm install uuid
+npm install class-validator class-transformer
