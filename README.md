@@ -111,3 +111,7 @@ nest g controller tasks --no-spec ( generate controller file and this flag is fo
 nest g service tasks --no-spec
 npm install uuid
 npm install class-validator class-transformer
+
+install PgAdmin, and Docker
+docker run --name postgres-nest -p 5432:5432 -e POSTGRES_PASSWORD=postgres -d postgres
+npm install typeorm @nestjs/typeorm pg
