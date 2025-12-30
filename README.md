@@ -115,3 +115,5 @@ npm install class-validator class-transformer
 install PgAdmin, and Docker
 docker run --name postgres-nest -p 5432:5432 -e POSTGRES_PASSWORD=postgres -d postgres
 npm install typeorm @nestjs/typeorm pg
+
+npm remove uuid
